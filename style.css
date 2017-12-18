@@ -22,6 +22,11 @@
   float: left;
   right: 10px;
   padding: 5px;
+  margin-top:5px;
+}
+
+.main-pic {
+
 }
 
  h1 {
@@ -29,6 +34,7 @@
   font-size: 36px;
   font-style: italic;
   float: left;
+  margin-top: 5px;
 }
 
  h2 {
@@ -36,6 +42,7 @@
   font-size: 25px;
   font-style: italic;
   padding-top: 8px;
+  margin-top: 5px
 }
 
 h3 {
@@ -45,6 +52,7 @@ h3 {
   text-align: justify;
   letter-spacing: 2px;
   padding: 5px;
+  margin-top: 5px;
 }
 .module {
   background: white;
@@ -74,19 +82,21 @@ h3 {
   .icons {
     float: right;
     right: 0px;
-    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom:100px;
   }
 
   .printer {
     float: right;
     right: 10px;
     padding: 5px;
+    margin-bottom: 10px;
   }
   .print {
     float: right;
     right: 10px;
-    padding: 5px;
     color: lightgray;
+    margin-bottom: 10px;
   }
 
 
@@ -97,7 +107,7 @@ h3 {
   h4 {
     font-family: "Anton";
     font-size: 35px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
   }
 
   h5 {
@@ -185,6 +195,7 @@ input[type=checkbox]:checked + label {
   padding-top: 20px;
   margin-top: 15px;
   position: absolute;
+  margin-left: 240px;
  }
 
  button {
@@ -199,23 +210,24 @@ input[type=checkbox]:checked + label {
    color: white;
  }
 
-   .gray-fork:before {
-     content: " ";
-     border-bottom: 1px solid lightgray;
-     position: absolute;
-     width: 475px;
-     margin-top: 10px;
-     margin-left: 20px;
-   }
-
-  .gray-fork {
+.gray-fork {
  position: absolute;
  width: 30px;
  left: 637px;
  margin-top: 125px;
  margin-bottom: 50px;
+ margin-left: 250px;
  padding: 25px;
   }
+
+  .gray-fork:before {
+    content: " ";
+    border-bottom: 1px solid lightgray;
+    position: absolute;
+    width: 475px;
+    margin-top: 10px;
+    margin-right: : 50px;
+      }
 
   .gray-fork:after {
     content: " ";
@@ -223,7 +235,7 @@ input[type=checkbox]:checked + label {
     position: absolute;
     width: 475px;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-left: 50px;
     }
 
 
