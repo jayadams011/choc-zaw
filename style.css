@@ -135,8 +135,7 @@ p.fig {
 
 .shop-list{
   position: relative;
-      color: black;
-      padding: 5px;
+
 }
 
 label {
@@ -164,40 +163,36 @@ input[type=checkbox]:checked + label {
     top: 45%;
     left: 65%;
     transform: translate(-50%, -50%);
+  }
+
+.bio-pic {
+  float: left;
+  width: 650px;
+  margin-bottom: 65px;
 }
 
 .van {
   float:left;
-  width:30px;
-  right: 10px;
-  padding: 5px;
-  margin-top: 5px;
+  margin-right: 20px;
 }
 
 .her-name {
   font-family: "serif";
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  float:left;
-  width:200px;
-  margin-top: 15px;
-  text-align:
+
 }
 
 .info {
   font-family: "sans-serif";
-  font-size: 12px;
-  position:absolute;
-  left: 425px;
-  width: auto;
-  padding-top:20px;
-  margin-top: 15px;
+  font-size: 20px;
+  text-indent: 0px;
  }
 
  button {
    float: right;
    width: 150px;
-  margin-right: 100px;
+   margin-right: 100px;
    padding: 10px;
    background-color: #A5682A;
    font-family: sans-serif;
