@@ -1,40 +1,34 @@
 
-
 * {
-  font-family: "Pacifico", "Anton", 'Open Sans Condensed', sans-serif, 'Crimson Text', serif, "Short Stack", cursive;
+  font-family: "Pacifico", "Anton", sans-serif, serif, "Short Stack", cursive;
 
   }
 
   body {
-  max-width: 1080px;
-  margin: 75px auto 75px auto;
-  float: none;
-  font-family: serif;
-  }
+  max-width: 900px;
+  margin: 0 auto;
+    }
 
 
-.header {
-  margin: 20px, 20px, 0, 0;
-  overflow: auto;
+header {
+  height: 90px;
+  height: 90px;
+  padding-top: 30px;
+  padding-bottom: 20px
+
   }
 
 .fork  {
+  display: inline-block;
   float: left;
-  right: 10px;
-  padding: 5px;
-  margin-top:5px;
-}
-
-.main-pic {
-
 }
 
  h1 {
   font-family: "Pacifico";
   font-size: 36px;
   font-style: italic;
-  float: left;
-  margin-top: 5px;
+  float:left;
+  text-align:
 }
 
  h2 {
@@ -42,7 +36,6 @@
   font-size: 25px;
   font-style: italic;
   padding-top: 8px;
-  margin-top: 5px
 }
 
 h3 {
@@ -52,8 +45,16 @@ h3 {
   text-align: justify;
   letter-spacing: 2px;
   padding: 5px;
-  margin-top: 5px;
 }
+
+.icons {
+  float:left;
+  margin-right: 5px;
+  display:inline-block;
+  padding-top: 10px;
+  }
+
+
 .module {
   background: white;
   border: 1px solid #white;
@@ -68,9 +69,13 @@ h3 {
 }
 
 .stripe-2 {
-  color: gray;
+  color: ;
   background: repeating-linear-gradient(
-    -45deg, transparent, transparent 10px, #ccc 10px, #ccc 20px
+    -45deg,
+    transparent,
+    transparent 10px,
+    #ccc 10px,
+    #ccc 20px
   ),
   linear-gradient(
     to bottom,
@@ -80,23 +85,20 @@ h3 {
 }
 
   .icons {
-    float: right;
+    float:right;
     right: 0px;
-    padding-bottom: 50px;
-    margin-bottom:100px;
+    padding: 10px;
   }
 
   .printer {
-    float: right;
+    float:right;
     right: 10px;
     padding: 5px;
-    margin-bottom: 10px;
   }
   .print {
-    float: right;
+    float:right;
     right: 10px;
-    color: lightgray;
-    margin-bottom: 10px;
+    padding: 5px;
   }
 
 
@@ -107,7 +109,7 @@ h3 {
   h4 {
     font-family: "Anton";
     font-size: 35px;
-    padding-bottom: 5px;
+padding-bottom: 50px;
   }
 
   h5 {
@@ -127,13 +129,12 @@ p.fig {
   text-indent: 5em;
   text-align: justify;
   letter-spacing: 3px;
-  width: 960px;
+  width:960px;
   margin: 20px auto 20px auto;
   font-weight: normal;
   font-size: 13px;
   padding: 10px;
   margin: 10px;
-  font-family: 'Libre Baskerville';
 }
 
 
@@ -148,31 +149,31 @@ label {
 }
 
 input[type=checkbox]:checked + label {
-  color: gray;
+  color:gray;
   text-decoration: line-through;
 } /*This is the MDN spec for doing this*/
 
 .list-left{
   font-family: "Short Stack";
   position: absolute;
-  text-align: left;
-  top: 40%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+    text-align: left;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
   }
 
 .list-right {
   font-family: "Short Stack";
   position: absolute;
-  text-align: left;
-  top: 45%;
-  left: 65%;
-  transform: translate(-50%, -50%);
+    text-align: left;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
 }
 
 .van {
-  float: left;
-  width: 30px;
+  float:left;
+  width:30px;
   right: 10px;
   padding: 5px;
   margin-top: 5px;
@@ -183,71 +184,91 @@ input[type=checkbox]:checked + label {
   font-size: 18px;
   font-weight: bold;
   float:left;
-  width: 200px;
+  width:200px;
   margin-top: 15px;
+  text-align:
 }
 
 .info {
   font-family: "sans-serif";
   font-size: 12px;
-  left: 180px;
+  position:absolute;
+  left: 425px;
   width: auto;
-  padding-top: 20px;
+  padding-top:20px;
   margin-top: 15px;
-  position: absolute;
-  margin-left: 240px;
  }
 
  button {
    float: right;
    width: 150px;
-   margin-right: 100px;
+  margin-right: 100px;
    padding: 10px;
    background-color: #A5682A;
-   font-family: Open Sans Condensed;
+   font-family: sans-serif;
    font-size: 20;
    font-weight: bold;
-   color: white;
+   color: white ;
  }
 
-.gray-fork {
+   .gray-fork:before {
+     content: " ";
+     border-bottom: 1px solid lightgray;
+     position: absolute;
+     width:475px;
+     margin-top: 10px;
+     margin-left: 20px;
+   }
+
+  .gray-fork {
  position: absolute;
  width: 30px;
- left: 637px;
+ left:900px;
  margin-top: 125px;
  margin-bottom: 50px;
- margin-left: 250px;
- padding: 25px;
+ padding:25px;
   }
-
-  .gray-fork:before {
-    content: " ";
-    border-bottom: 1px solid lightgray;
-    position: absolute;
-    width: 475px;
-    margin-top: 10px;
-    margin-right: : 50px;
-      }
 
   .gray-fork:after {
     content: " ";
     border-bottom: 1px solid lightgray;
-    position: absolute;
-    width: 475px;
+    position: float;
+    width:475px;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-right: 50px;
     }
 
 
- .footer {
-   position: absolute;
-   right: 0;
-
-   left: 0;
-   padding: 200px;
-   height: 350px;
-   font-family: sans-serif;
-   color: lightgray;
-   text-align: center;
-   font-size: 10;
- }
+    footer {
+      clear: both;
+      height: 100px;
+      text-align: center;
+      font-family: Georgia, serif;
+      font-size: 10px;
+      color: #c9c9c9;
+      margin-top: 20px;
+    }
+    footer div.footerPart1 {
+      display: inline-block;
+      float: left;
+      width: 423px;
+      border-bottom: 1px #eaeaea solid;
+      padding-top: 15px;
+    }
+    footer img {
+      display: inline;
+      margin: 0px 6px 0px 10px;
+    }
+    footer div.footerPart2 {
+      display: inline-block;
+      float: right;
+      width: 423px;
+      border-bottom: 1px #eaeaea solid;
+      padding-top: 15px;
+    }
+    footer p.footerText{
+      margin-top: 25px;
+    }
+    footer p {
+      margin: 6px;
+    }
