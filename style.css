@@ -12,13 +12,14 @@
 
 header {
   height: 90px;
-  padding-top: 25px;
-  padding-bottom: 25px
+  padding-top: 30px;
+  padding-bottom: 5px
+  width: 700px;
   }
 
 .fork  {
   margin-right: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   padding-top: 3px;
   float: left;
   }
@@ -51,22 +52,30 @@ h3 {
   padding: 5px;
 }
 
-  .icons {
+  .icon {
     float:right;
     right: 0px;
-    padding: 10px;
-    padding-bottom: 50px;
-    margin-bottom: 100px;
+    padding: 2px;
+    padding-bottom: 5px;
     display: inline-block;
     }
+
+    .icon1 {
+      float:right;
+      right: 0px;
+      padding: 2px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      display: inline-block;
+      }
 
 
 
 .module {
   background: white;
   border: 1px solid #white;
-  margin-top: : 3%;
-  margin-bottom: 3%;
+  margin-top: : 1%;
+  margin-bottom: 2%;
   > h2 {
     padding: 1rem;
     margin: 0 0 0.5rem 0;
@@ -101,6 +110,9 @@ h3 {
     float:right;
     right: 10px;
     padding: 5px;
+    color:#808080;
+    font-size: 11px;
+    font-family: sans-serif;
   }
 
 
@@ -111,14 +123,15 @@ h3 {
   h4 {
     font-family: "Anton";
     font-size: 35px;
-padding-bottom: 50px;
+    padding-bottom: 2px;
   }
 
   h5 {
     font-family: "Anton";
     font-size: 15px;
     color: lightgray;
-    padding-top: 5px;
+    padding-top: 2px;
+    font-weight: lighter;
    }
 
 .repeating-linear {
