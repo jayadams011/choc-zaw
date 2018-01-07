@@ -134,11 +134,6 @@ h3 {
     font-weight: lighter;
    }
 
-.repeating-linear {
-background: repeating-linear-gradient(-45deg, red, red 5px, blue 5px, blue 10px);
-}
-
-
 p.fig {
   margin: 30px 0;
   text-indent: 30px;
